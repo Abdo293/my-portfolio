@@ -54,14 +54,14 @@
           <div class="col-lg-10">
             <h1 class="display-4 fw-bold" data-aos="fade-up">
               I'M A <span class="text-brand">FRONT END DEVELOPER</span> FROM
-              TANTA, EGYPT
+              CAIRO, EGYPT
             </h1>
             <p class="lead mt-2 mb-4" data-aos="fade-up" data-aos-delay="300">
-              I'm Abdelrhman Elsayed, a web designer specializing in React.js. I excel in creating visually appealing and user-friendly interfaces for web applications. With a focus on modern design principles and a keen eye for detail, I strive to deliver engaging digital experiences that captivate users.
+              I'm Abdelrhman Elsayed, a web developer specializing in React.js. I excel in creating visually appealing and user-friendly interfaces for web applications. With a focus on modern design principles and a keen eye for detail, I strive to deliver engaging digital experiences that captivate users.
             </p>
             <div data-aos="fade-up" data-aos-delay="600">
               <a href="#Work" class="btn btn-brand me-3">Explore My Work</a>
-              <a href="tel:+01152516755" class="link-custom">Call: (011) 56721734</a>
+              <a href="tel:+01152516755" class="link-custom">Call: (+20) 1156721734</a>
             </div>
           </div>
         </div>
@@ -315,31 +315,25 @@ answers. Finally, it is determined whether they have passed or failed. </p>
             <h1>Interested in working together? Let's talk</h1>
           </div>
           <div class="col-lg-8" data-aos="fade-up" data-aos-delay="300">
-            <form action="#" class="row g-lg-3 gy-3">
+            <form action="https://api.web3forms.com/submit" method="POST" class="row g-lg-3 gy-3">
+              <input type="hidden" name="access_key" value="c38c5b7d-19f4-4cfb-a00a-5823827d0245">
               <div class="form-group col-md-6">
-                <input type="text" class="form-control" placeholder="Enter your name" pattern="^[A-Za-z]+{5,}$"
-                  title="Your name musn't contain numbers and at least five character" required>
+                  <input type="text" class="form-control" placeholder="Enter your name"  title="Your name mustn't contain numbers and at least five characters" name="name" required>
               </div>
-
               <div class="form-group col-md-6">
-                <input type="email" class="form-control" placeholder="Enter your email"
-                  pattern="^[A-Za-z0-9]+@(gmail.com|outlook)$"
-                  title="Your Email must be correct and only gmail or outlook" required>
+                  <input type="email" class="form-control" placeholder="Enter your email" pattern="[a-z0-9._%+-]+@(gmail|outlook)\.[a-z]{2,}$" title="Your Email must be correct and only gmail or outlook" name="email" required>
               </div>
-
               <div class="form-group col-md-12">
-                <input type="text" class="form-control" placeholder="Enter subject" required pattern="(?:\w+\s*){1,}"
-                  title="You Must Enter a subject">
+                  <input type="text" class="form-control" placeholder="Enter subject" required pattern="[a-zA-Z0-9_ %+-]{1,}$" title="You Must Enter a subject" name="subject" required>
               </div>
-
               <div class="form-group col-md-12">
-                <textarea name="" rows="4" class="form-control" placeholder="Enter your message" required></textarea>
+                  <textarea name="message" rows="4" class="form-control" placeholder="Enter your message" required></textarea>
               </div>
-
               <div class="form-group col-md-12 d-grid">
-                <button type="submit" class="btn btn-brand">Contact me</button>
+                  <button type="submit" class="btn btn-brand">Contact me</button>
               </div>
-            </form>
+          </form>
+          
           </div>
         </div>
 
@@ -349,11 +343,8 @@ answers. Finally, it is determined whether they have passed or failed. </p>
     <!-- footer -->
     <footer class="py-5 px-lg-5">
       <div class="container">
-        <div class="row gy-4 justify-content-between">
-          <div class="col-auto">
-            <p class="mb-0">Copyright text goes here </p>
-          </div>
-          <div class="col-auto">
+        <div class="row gy-4 justify-content-center">
+          <div class="col-auto ">
             <div class="social-links">
               <a href="http://www.linkedin.com/in/abdelrhmanel-sayed" target="_blank"><i
                   class="lab la-linkedin-in"></i></a>
@@ -374,8 +365,6 @@ answers. Finally, it is determined whether they have passed or failed. </p>
   <script src="./JS/bootstrap.bundle.min.js"></script>
   <script src="./JS/aos.js"></script>
   <script src="./JS/main.js"></script>
-
-  <script sr></script>
 </body>
 
 </html>

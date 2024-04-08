@@ -37,28 +37,3 @@ toggleButtons.forEach((button) => {
     }
   });
 });
-
-document.addEventListener("DOMContentLoaded", function () {
-  const form = document.querySelector("form");
-
-  form.addEventListener("submit", function (e) {
-    e.preventDefault(); // Prevent the default form submission
-
-    fetch("submit.php", {
-      method: "POST",
-      body: new FormData(form),
-    })
-      .then((response) => {
-        if (response.ok) {
-          alert("Form submitted successfully.");
-          form.reset(); // Clear the form fields after submission
-        } else {
-          alert("Form submission failed.");
-        }
-      })
-      .catch((error) => {
-        console.error("Error:", error);
-        alert("An error occurred while submitting the form.");
-      });
-  });
-});
