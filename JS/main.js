@@ -13,7 +13,6 @@ AOS.init({
   anchorPlacement: "top-bottom", // defines which position of the element regarding to window should trigger the animation
 });
 let p = document.querySelectorAll(".p_more");
-console.log(p);
 function readmore() {
   if (p[0].classList.contains("visually-hidden")) {
     p[0].classList.remove("visually-hidden");
